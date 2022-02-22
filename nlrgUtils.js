@@ -17,7 +17,7 @@ function generateKB() {
     // xhr.send();
     // console.log("data:", data);
     // consoleElement.value += data + "\n~$ ";
-    xhr.open("POST", "http://82.116.211.98:8085/generaterules", true);
+    xhr.open("POST", "https://82.116.211.98:8085/generaterules", true);
     xhr.setRequestHeader("Content-Type", "application/json");
     xhr.setRequestHeader("accept", "application/json");
     xhr.send(JSON.stringify({

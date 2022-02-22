@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="nlrgStyle.css" media="screen"/>
+        <title>
+            NLRG - Natural Language Rule Generator
+        </title>
+    </head>
+    <body>
+        <div class="body-container" id="body-container">
+            <div class="navbar-container">
+                <div class="navbar-max-width">
+                    <div class="logo-container">
+                        <div class="logo-text">NLRG</div>
+                    </div>
+                    <div class="button-container">
+                        <div class="generate-button" onclick="generateKB()">Generate</div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-body-container">
+                <div class="grid-container">
+                    <div class="text-container textarea-container">
+                        <div class="textarea-label">NL Text</div>
+                        <textarea id="nl-text" class="nlrg-textarea" placeholder="Enter your Natural Language Text..."></textarea>
+                    </div>
+                    <div class="kb-container textarea-container">
+                        <div class="textarea-label">Rule Generation Policy</div>
+                        <textarea id="policy" class="nlrg-textarea"placeholder="Enter your policy here (if not, the default one will be used)."></textarea>
+                    </div>
+                    <div class="console-container textarea-container">
+                        <div class="textarea-label">Console</div>
+                        <textarea id="console" class="nlrg-textarea" readonly>~$ </textarea>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="nlrgUtils.js"></script>
+    </body>
+</html>

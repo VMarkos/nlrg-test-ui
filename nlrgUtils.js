@@ -13,7 +13,7 @@ function generateKB() {
     //        // console.log("onreadystatechange data:", data);
     //     }
     // };
-    // xhr.open("GET", "https://api.agify.io?name=meelad", true);
+    // xhr.open("GET", "http://api.agify.io?name=meelad", true);
     // xhr.send();
     // console.log("data:", data);
     // consoleElement.value += data + "\n~$ ";
